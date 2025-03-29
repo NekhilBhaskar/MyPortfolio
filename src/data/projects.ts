@@ -13,7 +13,7 @@ export const projects: Project[] = [
   {
     id: 2,
     title: "Chat App",
-    description: "A real-time chat application built using the MERN stack (MongoDB, Express.js, React, Node.js) and Socket.io enables seamless and instant messaging between users. ",
+    description: "A real-time chat application built using the MERN stack and Socket.io enables seamless and instant messaging between users. ",
     image: "/assets/chatapp2.png",
     technologies: ["MERN Stack","Socket.io"],
     githubUrl: "https://github.com/NekhilBhaskar/ChatApp",
@@ -22,11 +22,11 @@ export const projects: Project[] = [
   {
     id: 2,
     title: "Sorting Visualizer",
-    description: "Shows how different Sorting Algorithms like Bubble Sort, Merge Sort, Quick Sort, etc sorts the underlying data.It demonstrates the step-by-step execution of sorting.",
+    description: "An interactive web-based tool that visually demonstrates how different sorting algorithms work.",
     image: "/assets/sorter.png",
     technologies: ["WebDev", "JS", "React"],
-    githubUrl: "https://github.com/NekhilBhaskar?tab=repositories",
-    liveUrl: ""
+    githubUrl: "https://github.com/NekhilBhaskar/Sorting-Visualizer",
+    liveUrl: "https://sorting-visualizer-nekhil-bhaskar.vercel.app/"
   }
 ];
 // https://github.com/guytesting85/Sorting-Visualizer
